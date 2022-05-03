@@ -1,0 +1,54 @@
+.dot {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    border: solid black 2px;
+}
+
+.result-dot {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: inline-block;
+    border: solid black 2px;
+    padding: auto 0;
+}
+
+.user_input {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.pulse a:hover{ 
+    animation: pulse 1s infinite;
+    animation-timing-function: linear;   
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.correct-dot {
+    background-color: red;
+}
+
+.correct-text {
+    color: red;
+}
+
+.position-dot {
+    background-color: yellow;
+}
+
+.position-text {
+    color: yellow;
+}
+
+.color-1 {
+    background-color: red;
+    color: red;
+}
