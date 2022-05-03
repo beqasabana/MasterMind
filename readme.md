@@ -15,6 +15,7 @@ Game provides results of user input in color coded response where:
 Installation guide:
     1) Create new directory anywhere in your system
     2) cd into newly created directory and clone github repo using terminal/command prompt or download code files from github and move them into newly created directory
+    github repo: https://github.com/beqasabana/MasterMind
     note: pip3 and python 3 is required for game to run please refer to official sources for installation guide
     3) using terminal cd into same directory where game source code was cloned/downloaded
     4) lunch virtual environment using terminal command: pipenv shell
